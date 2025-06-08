@@ -1,0 +1,174 @@
+/* Fond général */
+body {
+  font-family: Arial, sans-serif;
+  background: url('ton-image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Bannière principale (titre tout en haut) */
+.banniere {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Formulaire dans une bannière semi-transparente */
+.form-banniere {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* Contenu du formulaire */
+#formulaire {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Champs de saisie et bouton */
+input,
+select,
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: #ffffffcc;
+  color: #000;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border: 2px solid #2a9d8f;
+}
+
+button {
+  background-color: #2a9d8f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21867a;
+}
+
+/* Bannières secondaires (Derniers rapports, Classement du jour) */
+.banniere-secondaire {
+  background-color: #2a9d8f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 40px auto 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Section contenant les listes */
+.section-banniere {
+  padding: 0 20px 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Listes de rapports et classement */
+ul, ol {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 15px 25px;
+  border-radius: 10px;
+  list-style: none;
+  font-size: 16px;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+}
+
+
+.form-banniere {
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent noir */
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+#formulaire {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2a9d8f;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #21867a;
+}
+body {
+  background-image: url("ivoiro342.jpg");  /* Le nom du fichier exact */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}

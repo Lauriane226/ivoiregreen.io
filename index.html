@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>IVOIRO GREEN - Tag Report</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bannière principale -->
+  <header class="banniere">
+    <h1>RAPPORT DE TAG ⭐IVOIRO_GREEN⭐</h1>
+  </header>
+
+  <!-- Bannière transparente contenant le formulaire -->
+  <section class="form-banniere">
+    <form id="formulaire">
+      <div class="form-group">
+        <label for="grade">☣️Ton grade☣️</label>
+        <select id="grade">
+          <option value="[RECRUE PROSPECT]☣">Recrue prospect</option>
+          <option value="[NOVICE]⭐">Novice</option>
+          <option value="[SBIRE]⭐⭐">Sbire</option>
+          <option value="[ASSASSIN]⭐⭐⭐">Assassin</option>
+          <option value="[ADJOINT]⭐⭐⭐⭐">Adjoint</option>
+          <option value="[CHEF DE GANG]⭐⭐⭐⭐⭐">Chef de gang</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="tags">⁉️Nombre de tags aujourd'hui⁉️</label>
+        <input type="number" id="tags" min="0" required>
+      </div>
+
+      <div class="form-group">
+        <label for="pseudo">☠️Ton pseudo☠️</label>
+        <input type="text" id="pseudo" required>
+      </div>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Sections pour les rapports et classement -->
+  <section class="section-banniere">
+    <h2 class="banniere-secondaire" id="rapports">🗒 Derniers rapports</h2>
+    <ul id="reportList"></ul>
+  </section>
+
+  <section class="section-banniere">
+    <h2 class="banniere-secondaire" id="classement">🏆 Classement du jour</h2>
+    <ol id="rankingList"></ol>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
